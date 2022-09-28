@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../css/materialize.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
         <script src="../js/script.js"></script>
+        <script src="../js/materialize.js"></script>
         <title>Daniel Mrva Responces</title>
     </head>
     <body class="brown lighten-4">
@@ -15,11 +17,23 @@
             <!-- Navigation Section, includeds a L-Align "Logo" and R-Align links -->
             <nav id="navigation" class="grey darken-2">
                 <div class="nav-wrapper">
+
                     <!-- "Logos" appear differently based on display size -->
-                    <a class="brand-logo left  hide-on-small-and-down DM">Daniel Mrva</a>
-                    <a class="brand-logo left hide-on-med-and-up DM">DM</a>
+                    <a href="#" class="brand-logo left  hide-on-small-and-down DM">Daniel Mrva</a>
+                    <a href="#" class="brand-logo left hide-on-med-and-up DM">DM</a>
+
+                    <!-- Sidenav trigger -->
+                    <a href="#" data-target='mobile-demo' class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                     <!-- Nav links -->
-                    <ul class="right hide-on-small-and-down">
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#" data-item="PHP">PHP</a></li>
+                        <li><a href="#" data-item="OOP">OOP</a></li>
+                        <li><a href="#" data-item="JS">JavaScript</a></li>
+                        <li><a href="#" data-item="MYSQL">MySQL</a></li>
+                        <li><a href="#" data-item="CSS">CSS</a></li>
+                    </ul>
+                    <!-- SideNav -->
+                    <ul class="sidenav" id='mobile-demo'>
                         <li><a href="#" data-item="PHP">PHP</a></li>
                         <li><a href="#" data-item="OOP">OOP</a></li>
                         <li><a href="#" data-item="JS">JavaScript</a></li>
@@ -60,7 +74,7 @@
             </section>
         </main>
         <footer id="footer">
-                
+                <!-- TODO: Add footer content -->
         </footer>
         
     </body>

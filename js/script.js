@@ -25,6 +25,21 @@ $(function() {
         })
     };
 
+    // initialization of sidenav
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+
+    // event listener for 'home' button
+    $('.DM').on('click', function(e) {
+        e.preventDefault();
+
+        location.href='index.php';
+        
+    });
+
+
+
     // event listeners for all of our <a> with data-item
     $('a[data-item').on('click', function(e) {
         e.preventDefault();
