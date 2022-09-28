@@ -52,13 +52,13 @@
                 <h2 class="hide" id="error"></h2>
                 <!-- Card to be displayed on initial load, hidden when any of the above links are clicked-->
                 <div id="landing" class="col s12">
-                    <div class="card horizontal">
+                    <div class="card horizontal grey darken-1">
                         <div class="card-image">
                             <img src="../assets/me.jpg" alt="an image of the developer, a caucasian male in his late-30's smiling" class="responsive-img">
                             <span class="card-title">Daniel Mrva</span>
                         </div>
                         <div class="card-stacked">
-                            <div class="card content">
+                            <div class="card content grey darken-1 white-text">
                                 <p>I am an aspiring web developer with a background in the arts, with a BFA from Illinois State University, MFA from Indiana University, and a full-stack web development certificate from the University of Denver (2022).
                                 <br>
                                 I am originally from Arizona, was raied in Illinois, and have lived in New York as well as Indiana.  I currently live and work in Colorado with my two sweet daughters and lovely wife.
