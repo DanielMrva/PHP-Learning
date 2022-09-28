@@ -65,13 +65,13 @@ $responses = array(
 // variable to get the requested item from our FE GET request
 $item = $_GET['item'];
 
-// filters responses by the item
+// variable to get the specific response from responses array
 $question = $responses[$item];
 
 // empty string to contain our action links
 $actions = "";
 
-// for each to concat our links formmated for <a> tags
+// for each to concat our links formmated for <a> tags, each "link" is an array, index[0] is the link title, index[1] is the href
 foreach ($question["link"] as $action) {
     $actions .="<a href='$action[1]'>$action[0]</a>";
 }
